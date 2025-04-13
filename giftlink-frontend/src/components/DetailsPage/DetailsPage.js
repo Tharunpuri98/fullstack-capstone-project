@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import urlConfig from '../../config';
+import {urlConfig} from '../../config';
 import './DetailsPage.css';
 
 function DetailsPage() {
